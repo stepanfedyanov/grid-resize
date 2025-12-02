@@ -5,4 +5,9 @@ export default defineNuxtConfig({
   css: [
     '@/assets/css/main.scss',
   ],
+  app: {
+    baseURL: process.env.NODE_ENV === 'production' ? '/grid-resize/' : '/',
+    buildAssetsDir: 'assets',
+  },
+  ssr: false,
 })
