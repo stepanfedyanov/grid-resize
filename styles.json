@@ -1,0 +1,66 @@
+{
+    "fokusContainer1": {
+        "display": "grid",
+        "gridTemplateColumns": "50% 50%",
+        "gridTemplateRows": "50% 50%",
+        "gridTemplateAreas": "\"item1 item3\" \"item2 item3\"",
+        "width": "100%",
+        "height": "100%",
+        "position": "relative"
+    },
+    "fokusElement1": {
+        "display": "flex",
+        "justifyContent": "center",
+        "alignItems": "center",
+        "color": "#fff",
+        "fontSize": "20px",
+        "padding": "10px",
+        "position": "relative"
+    },
+    "fokusContainer2": {
+        "display": "grid",
+        "gridTemplateColumns": "50% 50%",
+        "gridTemplateRows": "30% 70%",
+        "gridTemplateAreas": "\"item1 item2\" \"item3 item4\"",
+        "width": "100%",
+        "height": "100%",
+        "position": "relative"
+    },
+    "fokusElement2": {
+        "display": "flex",
+        "justifyContent": "center",
+        "alignItems": "center",
+        "color": "#fff",
+        "fontSize": "20px",
+        "padding": "10px",
+        "position": "relative"
+    },
+    "item1": {
+        "gridArea": "item1",
+        "background": "rgb(0, 32, 113)"
+    },
+    "item2": {
+        "gridArea": "item2",
+        "background": "rgb(9, 190, 33)"
+    },
+    "item3": {
+        "gridArea": "item3",
+        "background": "rgb(9, 54, 190)"
+    },
+    "item4": {
+        "gridArea": "item4",
+        "background": "rgb(77, 71, 79)"
+    },
+    "item5": {
+        "gridArea": "item5",
+        "background": "rgb(145, 9, 190)"
+    },
+    "item6": {
+        "gridArea": "item6",
+        "background": "rgb(190, 9, 153)"
+    },
+    "item7": {
+        "gridArea": "item7",
+        "background": "rgb(142, 190, 9)"
+    }
+}
